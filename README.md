@@ -18,3 +18,5 @@ The VS Code page links to README content, documentation, screenshots, and releas
 ## Deployment
 
 This repository is designed for GitHub Pages without a build step or GitHub Actions workflow. Enable Pages for the `main` (or `master`) branch using the repository root as the publishing source.
+
+The published site is available at https://justybase.github.io/.
