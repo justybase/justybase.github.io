@@ -3,8 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="JustyBase SQL Tools for VS Code — Netezza-first tooling with optional database packs for PostgreSQL, MySQL, Oracle, Db2, DuckDB, and more.">
-    <title>JustyBase SQL Tools for VS Code — JustyBase</title>
+    <meta name="description" content="JustyBase Netezza SQL Tools for Visual Studio Code: Netezza/PureData SQL editing, schema browsing, query results, import/export, notebooks, and optional database packs.">
+    <link rel="canonical" href="https://justybase.github.io/vscode/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="JustyBase">
+    <meta property="og:title" content="JustyBase Netezza SQL Tools for VS Code">
+    <meta property="og:description" content="A Netezza-first SQL extension for Visual Studio Code with schema-aware database workflows and optional database packs.">
+    <meta property="og:url" content="https://justybase.github.io/vscode/">
+    <meta property="og:image" content="https://justybase.github.io/assets/img/justybase-mark.svg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="JustyBase Netezza SQL Tools for VS Code">
+    <meta name="twitter:description" content="Netezza/PureData SQL tooling for Visual Studio Code with optional database packs.">
+    <title>JustyBase Netezza SQL Tools for VS Code — JustyBase</title>
     <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="../assets/js/theme.js" defer></script>
@@ -25,8 +35,8 @@
       <section class="page-hero container">
         <a class="breadcrumb" href="../">← JustyBase</a>
         <p class="eyebrow">VS Code extension · Netezza core + database packs</p>
-        <h1>One workspace. <span class="accent">Netezza depth.</span></h1>
-        <p class="hero-copy">JustyBase SQL Tools brings a serious database workflow into VS Code. The Netezza package is the required core; install optional database packs when you work with PostgreSQL, MySQL, Oracle, Db2, DuckDB, and more.</p>
+        <h1>Netezza SQL Tools <span class="accent">for VS Code.</span></h1>
+        <p class="hero-copy">JustyBase SQL Tools is a Netezza-first SQL extension for Visual Studio Code. It brings Netezza and PureData SQL development, schema browsing, query results, and database workflows into one editor. The Netezza package is the required core; install optional packs for PostgreSQL, MySQL, Oracle, Db2, DuckDB, and more.</p>
         <div class="button-row">
           <a class="button button-primary" href="#manual-install">Install the core</a>
           <a class="button button-secondary" href="https://marketplace.visualstudio.com/items?itemName=justybase.justybase-netezza">Open Marketplace ↗</a>
@@ -134,6 +144,24 @@
           </div>
         </div>
       </section>
+
+      <section class="section container" id="faq">
+        <div class="panel faq-panel">
+          <h2>Netezza SQL Tools FAQ</h2>
+          <details>
+            <summary>What is JustyBase Netezza SQL Tools?</summary>
+            <p>It is a Netezza-first database and SQL extension for Visual Studio Code, with a built-in driver and a shared workspace for connections, schemas, queries, and results.</p>
+          </details>
+          <details>
+            <summary>Is the Netezza package required?</summary>
+            <p>Yes. The Netezza package provides the shared JustyBase workspace and is required before installing optional database packs.</p>
+          </details>
+          <details>
+            <summary>Which databases have optional packs?</summary>
+            <p>Optional packs are available for PostgreSQL, MySQL, Oracle, Microsoft SQL Server, Db2, DuckDB, Snowflake, and Vertica. SQLite support is built in.</p>
+          </details>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
@@ -143,6 +171,25 @@
       </div>
     </footer>
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "JustyBase Netezza SQL Tools",
+        "alternateName": "JustyBase SQL Tools for VS Code",
+        "description": "Netezza and PureData SQL tooling for Visual Studio Code with schema browsing, query results, import/export, notebooks, and optional database packs.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "url": "https://justybase.github.io/vscode/",
+        "downloadUrl": "https://marketplace.visualstudio.com/items?itemName=justybase.justybase-netezza",
+        "codeRepository": "https://github.com/justybase/justybase-vscode",
+        "publisher": {
+          "@type": "Organization",
+          "name": "JustyBase",
+          "url": "https://justybase.github.io/"
+        }
+      }
+    </script>
     <script>
       (async function updateReleaseLinks() {
         const apiUrl = 'https://api.github.com/repos/justybase/justybase-vscode/releases/latest';
