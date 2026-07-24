@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="JustyBase SQL and database developer tools, including Netezza SQL Tools for Visual Studio Code and database packs for modern data teams.">
+    <meta name="description" content="JustyBase — Netezza and SQL developer tools: VS Code extension, .NET SQL toolkit, Python and Node.js drivers, and open-source libraries for data workflows.">
     <link rel="canonical" href="https://justybase.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="JustyBase">
     <meta property="og:title" content="JustyBase — Netezza and SQL developer tools">
-    <meta property="og:description" content="Focused database tooling for Netezza, SQL workflows, and data teams.">
+    <meta property="og:description" content="VS Code extension, .NET SQL toolkit, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
     <meta property="og:url" content="https://justybase.github.io/">
     <meta property="og:image" content="https://justybase.github.io/assets/img/justybase-mark.svg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="JustyBase — Netezza and SQL developer tools">
-    <meta name="twitter:description" content="Focused database tooling for Netezza, SQL workflows, and data teams.">
+    <meta name="twitter:description" content="VS Code extension, .NET SQL toolkit, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
     <title>JustyBase — Netezza and SQL developer tools</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/theme.js" defer></script>
     <script type="application/ld+json">
@@ -43,6 +46,7 @@
         <a class="brand" href="./"><img src="assets/img/justybase-mark.svg" alt="">JustyBase</a>
         <div class="nav-links">
           <a href="#products">Products</a>
+          <a href="#open-source">Open source</a>
           <a href="#approach">Approach</a>
           <a href="https://github.com/justybase">GitHub ↗</a>
           <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme"><span data-theme-icon aria-hidden="true">◐</span><span data-theme-label>Dark mode</span></button>
@@ -53,9 +57,13 @@
     <main>
       <section class="hero container">
         <div class="hero-content">
+          <div class="hero-brand">
+            <img src="assets/img/justybase-mark.svg" alt="" width="48" height="48">
+            <span>JustyBase</span>
+          </div>
           <p class="eyebrow">Developer tools for data teams</p>
           <h1>Serious tools for <span class="accent">serious data.</span></h1>
-          <p class="hero-copy">JustyBase builds focused database tooling for developers working with Netezza, SQL workflows, and data platforms who need clear context, reliable queries, and fewer layers between a question and a useful result.</p>
+          <p class="hero-copy">Focused database tooling for Netezza, SQL workflows, and data platforms — from the editor to drivers and libraries that keep context visible and results close.</p>
           <div class="button-row">
             <a class="button button-primary" href="#products">Explore products</a>
             <a class="button button-secondary" href="https://github.com/justybase">View source ↗</a>
@@ -85,29 +93,18 @@
       <section class="section container" id="products">
         <div class="section-heading">
           <div><p class="section-index">01 / PRODUCTS</p><h2>Tools that respect the work.</h2></div>
-          <p>A small, growing toolkit for the work between a query and a useful result.</p>
+          <p>Four flagship projects for the path from editor to query result.</p>
         </div>
         <div class="product-grid">
           <article class="card product-card">
-            <div class="card-topline"><span>AVAILABLE NOW</span><span>NETEZZA CORE</span></div>
+            <div class="card-topline"><span>AVAILABLE NOW</span><span>VS CODE</span></div>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="7" ry="3"></ellipse><path d="M5 5v7c0 1.66 3.13 3 7 3s7-1.34 7-3V5M5 12v7c0 1.66 3.13 3 7 3s7-1.34 7-3v-7"></path></svg>
             </div>
-            <h3>JustyBase Core (NetezzaSQL) for VS Code</h3>
+            <h3>JustyBase Core for VS Code</h3>
             <p>A Netezza-first SQL extension for Visual Studio Code with a built-in JavaScript driver, full Netezza/PureData tooling, and optional packs for other databases.</p>
             <div class="card-meta"><span>NETEZZA</span><span>POSTGRESQL</span><span>MYSQL</span><span>ORACLE</span></div>
             <a class="card-link" href="vscode/">Explore the VS Code extension</a>
-          </article>
-
-          <article class="card card-violet product-card">
-            <div class="card-topline"><span>IN DEVELOPMENT</span><span>.NET</span></div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"></path><circle cx="12" cy="12" r="8.5"></circle></svg>
-            </div>
-            <span class="tag">Coming soon</span>
-            <h3>C# database tooling</h3>
-            <p>A future JustyBase tool for the .NET ecosystem. The name and details are still taking shape.</p>
-            <a class="card-link" href="csharp-tool/">See what’s coming</a>
           </article>
 
           <article class="card product-card">
@@ -115,29 +112,98 @@
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 12h12M4 19h14"></path><circle cx="18" cy="5" r="2"></circle><circle cx="20" cy="19" r="2"></circle></svg>
             </div>
-            <h3>JustyBase.NetezzaSql — .NET SQL toolkit</h3>
-            <p>Open-source .NET libraries for Netezza SQL parsing, formatting, linting, DDL generation, and catalog metadata queries — all without a live database connection. Includes a lexer, recursive-descent parser, AST, formatter, linter, and completion engine.</p>
+            <h3>JustyBase.NetezzaSql</h3>
+            <p>Open-source .NET libraries for Netezza SQL parsing, formatting, linting, DDL generation, and catalog metadata queries — without a live database connection.</p>
             <div class="card-meta"><span>PARSER</span><span>DDL</span><span>.NET 10</span><span>AOT</span></div>
             <a class="card-link" href="https://github.com/justybase/JustyBase.NetezzaSql">View on GitHub</a>
           </article>
 
           <article class="card card-teal product-card">
-            <div class="card-topline"><span>AVAILABLE NOW</span><span>.NET</span></div>
+            <div class="card-topline"><span>AVAILABLE NOW</span><span>PYTHON</span></div>
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path><circle cx="12" cy="12" r="4"></circle></svg>
             </div>
-            <h3>JustyBase.Netezza — Metadata integration layer</h3>
-            <p>UI-agnostic .NET library bridging Netezza schema metadata, SQL parsing, and DDL generation. Pure data transformation with no I/O or database driver dependency. Feeds schema into the parser's completion engine and converts models into DDL input.</p>
-            <div class="card-meta"><span>SCHEMA</span><span>METADATA</span><span>.NET 10</span><span>AOT</span></div>
-            <a class="card-link" href="https://github.com/justybase/JustyBase.Netezza">View on GitHub</a>
+            <h3>nzpy_extended</h3>
+            <p>High-performance IBM Netezza driver for Python — hard fork of nzpy with a C extension, async API, streaming bulk load, and pre-built wheels for Linux, macOS, and Windows.</p>
+            <div class="card-meta"><span>PIP</span><span>C EXT</span><span>ASYNC</span><span>DB-API</span></div>
+            <p class="card-install"><code>pip install nzpy-extended</code></p>
+            <a class="card-link" href="https://github.com/justybase/nzpy_extended">View on GitHub</a>
+          </article>
+
+          <article class="card card-violet product-card">
+            <div class="card-topline"><span>AVAILABLE NOW</span><span>NODE</span></div>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h3>@justybase/netezza-driver</h3>
+            <p>Pure TypeScript Netezza / PureData driver — no ODBC, connection pool, SSL, and an ADO.NET-style Connection/Command/Reader API for Node.js.</p>
+            <div class="card-meta"><span>NPM</span><span>TYPESCRIPT</span><span>POOL</span><span>SSL</span></div>
+            <p class="card-install"><code>npm i @justybase/netezza-driver</code></p>
+            <a class="card-link" href="https://github.com/justybase/justybase_netezza_node_driver">View on GitHub</a>
           </article>
         </div>
       </section>
 
+      <section class="section container" id="open-source">
+        <div class="section-heading">
+          <div><p class="section-index">02 / OPEN SOURCE</p><h2>More of the toolkit.</h2></div>
+          <p>Supporting libraries across .NET, Java, and Python — same org, same focus.</p>
+        </div>
+        <ul class="repo-catalog">
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/JustyBase.Netezza">JustyBase.Netezza</a>
+              <p>UI-agnostic .NET layer bridging Netezza schema metadata, SQL parsing, and DDL generation.</p>
+            </div>
+            <span class="repo-lang">.NET</span>
+            <a class="repo-link" href="https://github.com/justybase/JustyBase.Netezza">GitHub ↗</a>
+          </li>
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/JustyBase.NetezzaDriver">JustyBase.NetezzaDriver</a>
+              <p>Native .NET client for IBM Netezza Performance Server — connections, commands, and data retrieval.</p>
+            </div>
+            <span class="repo-lang">.NET</span>
+            <a class="repo-link" href="https://github.com/justybase/JustyBase.NetezzaDriver">GitHub ↗</a>
+          </li>
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/dbeaver-netezza-tools-plugin">dbeaver-netezza-tools-plugin</a>
+              <p>DBeaver extension for clipboard/Excel import-export, table creation, and Netezza-friendly DDL.</p>
+            </div>
+            <span class="repo-lang">Java</span>
+            <a class="repo-link" href="https://github.com/justybase/dbeaver-netezza-tools-plugin">GitHub ↗</a>
+          </li>
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/SpreadSheetTasks">SpreadSheetTasks</a>
+              <p>High-performance .NET library for reading and writing Excel files (.xlsx, .xlsb).</p>
+            </div>
+            <span class="repo-lang">.NET</span>
+            <a class="repo-link" href="https://github.com/justybase/SpreadSheetTasks">GitHub ↗</a>
+          </li>
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/xlspy">xlspy</a>
+              <p>Python library for efficient XLSB/XLSX read and write, with optional C acceleration.</p>
+            </div>
+            <span class="repo-lang">Python</span>
+            <a class="repo-link" href="https://github.com/justybase/xlspy">GitHub ↗</a>
+          </li>
+        </ul>
+      </section>
+
       <section class="section section-approach container" id="approach">
         <div class="approach-grid">
-          <div><p class="section-index">02 / APPROACH</p><h2>Clarity is a feature.</h2></div>
-          <div class="approach-copy"><p>Database work is already complex. The tools around it should make state, intent, and results easier to see.</p><div class="principles"><span><b>Context</b> — schema-aware workflows</span><span><b>Control</b> — explicit actions and feedback</span><span><b>Continuity</b> — the editor stays the workspace</span></div></div>
+          <div><p class="section-index">03 / APPROACH</p><h2>Clarity is a feature.</h2></div>
+          <div class="approach-copy">
+            <p>Database work is already complex. The tools around it should make state, intent, and results easier to see — from the editor through drivers and SQL toolkits to spreadsheet I/O.</p>
+            <div class="principles">
+              <span><b>Context</b> — schema-aware workflows</span>
+              <span><b>Control</b> — explicit actions and feedback</span>
+              <span><b>Continuity</b> — the editor stays the workspace</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
