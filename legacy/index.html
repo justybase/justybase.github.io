@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JustyBase.Legacy — Windows desktop SQL client for IBM Netezza / PureData. Netezza-first editor, result grid, object explorer, encrypted profiles, and self-contained installer.">
+    <link rel="canonical" href="https://justybase.github.io/legacy/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="JustyBase">
+    <meta property="og:title" content="JustyBase.Legacy — Windows SQL client for Netezza">
+    <meta property="og:description" content="Author, explore, and ship Netezza SQL with a modern Windows desktop IDE built on .NET 10.">
+    <meta property="og:url" content="https://justybase.github.io/legacy/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/editor-showcase-dark.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JustyBase.Legacy — Windows SQL client for Netezza">
+    <meta name="twitter:description" content="Author, explore, and ship Netezza SQL with a modern Windows desktop IDE built on .NET 10.">
+    <title>JustyBase.Legacy — Windows SQL client for Netezza — JustyBase</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/theme.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="../"><img src="../assets/img/justybase-mark.svg" alt="">JustyBase</a>
+        <div class="nav-links">
+          <a href="../#products">Products</a>
+          <a href="https://github.com/justybase/JustyBase.Legacy">Source ↗</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme"><span data-theme-icon aria-hidden="true">◐</span><span data-theme-label>Dark mode</span></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero container">
+        <a class="breadcrumb" href="../">← JustyBase</a>
+        <p class="eyebrow">Windows desktop · Netezza-first</p>
+        <h1>JustyBase<span class="accent">.Legacy</span></h1>
+        <p class="hero-copy">A Windows SQL client for IBM Netezza / PureData. Write and run SQL, browse catalog objects, tune preferences in a docked settings tab, and keep connection profiles encrypted on disk — built on .NET 10.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#download">Download for Windows</a>
+          <a class="button button-secondary" href="https://github.com/justybase/JustyBase.Legacy/releases/latest">GitHub Releases ↗</a>
+        </div>
+        <div class="meta" aria-label="Product highlights">
+          <span>Windows x64</span>
+          <span>Self-contained · .NET 10</span>
+          <span>Netezza / PureData</span>
+          <span>LGPL-3.0</span>
+        </div>
+      </section>
+
+      <section class="section container">
+        <figure class="screenshot screenshot-hero">
+          <img src="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/editor-showcase-dark.png" alt="JustyBase.Legacy SQL editor, result grid, and database explorer in dark theme" loading="eager">
+          <figcaption>SQL editor, result grid, and database explorer — dark theme</figcaption>
+        </figure>
+      </section>
+
+      <section class="section container">
+        <div class="support-model">
+          <div class="support-heading">
+            <p class="section-index">01 / PRODUCT MODEL</p>
+            <h2>Netezza is the shipped default. Other engines stay optional.</h2>
+          </div>
+          <div class="support-columns">
+            <article class="support-block support-core">
+              <div class="support-label"><span class="status-dot"></span> SHIPPED DEFAULT</div>
+              <h3>IBM Netezza / PureData</h3>
+              <p>The release binary is a Netezza-first desktop IDE: SQL authoring, catalog browsing, results, and encrypted connection profiles for Windows x64. Packages are self-contained — no separate .NET runtime install.</p>
+              <div class="support-tags"><span>NETEZZA CORE</span><span>WINFORMS</span><span>SELF-CONTAINED</span></div>
+            </article>
+            <article class="support-block support-optional">
+              <div class="support-label"><span class="status-dot"></span> CONTRIBUTOR BUILDS</div>
+              <h3>Optional providers</h3>
+              <p>MS SQL, Oracle, DB2, and PostgreSQL are available as optional compile-time flags for contributors. They are not included in the default release binary.</p>
+              <div class="database-list"><span>Microsoft SQL Server</span><span>Oracle</span><span>Db2</span><span>PostgreSQL</span></div>
+            </article>
+          </div>
+          <div class="support-note"><strong>Important:</strong> download the public release for Netezza workflows. Extra database providers require building from source with the matching flags enabled.</div>
+        </div>
+      </section>
+
+      <section class="section container" id="download">
+        <div class="section-heading">
+          <div><p class="section-index">02 / DOWNLOAD</p><h2>Installer or portable ZIP.</h2></div>
+          <p>Get the latest Windows x64 build from GitHub Releases. Both packages are self-contained.</p>
+        </div>
+        <div class="install-grid install-grid-dual">
+          <article class="install-card install-required">
+            <div class="install-number">01</div>
+            <div class="install-card-label">RECOMMENDED</div>
+            <h3>Inno Setup installer</h3>
+            <p>Standard Windows installer for JustyBase.Legacy. Best for a normal desktop install with Start Menu shortcuts.</p>
+            <a class="button button-primary release-link" data-release-asset="exe" href="https://github.com/justybase/JustyBase.Legacy/releases/latest">Download installer ↗</a>
+          </article>
+          <article class="install-card">
+            <div class="install-number">02</div>
+            <div class="install-card-label">PORTABLE</div>
+            <h3>ZIP package</h3>
+            <p>Self-contained portable archive. Extract and run without an installer — useful for locked-down or temporary machines.</p>
+            <a class="button button-secondary release-link" data-release-asset="zip" href="https://github.com/justybase/JustyBase.Legacy/releases/latest">Download ZIP ↗</a>
+          </article>
+        </div>
+        <div class="install-steps">
+          <div><span>1</span><p>Download the <strong>installer</strong> or the <strong>portable ZIP</strong> for Windows x64.</p></div>
+          <div><span>2</span><p>Run the setup, or extract the ZIP and launch the application.</p></div>
+          <div><span>3</span><p>Add an encrypted Netezza connection profile and open a SQL tab.</p></div>
+        </div>
+        <p id="release-status" class="release-status" aria-live="polite">Checking latest release…</p>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div><p class="section-index">03 / FEATURES</p><h2>Built for serious Netezza work.</h2></div>
+          <p>Editor, results, catalog, and preferences in one desktop workspace.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="panel">
+            <h2>Netezza-first SQL editor</h2>
+            <p>Syntax highlighting, completion, and linting aimed at NPS SQL so authoring stays close to the dialect you ship.</p>
+          </article>
+          <article class="panel">
+            <h2>Virtual-mode result grid</h2>
+            <p>Handle large result sets with filtering and export to CSV or Excel without freezing the UI.</p>
+          </article>
+          <article class="panel">
+            <h2>Object explorer</h2>
+            <p>Browse connections, databases, and tables; open DDL and navigate into catalog objects from the tree.</p>
+          </article>
+          <article class="panel">
+            <h2>Docked preferences</h2>
+            <p>General, Colors &amp; Editor, Snippets, Execution, and Results live as a document tab — not a modal dialog.</p>
+          </article>
+          <article class="panel">
+            <h2>Encrypted profiles</h2>
+            <p>Connection credentials protected with AES-GCM and DPAPI for the current Windows user.</p>
+          </article>
+          <article class="panel">
+            <h2>Release-grade pipeline</h2>
+            <p>Smoke tests, coverage gates, NuGet audit, and ~1,100+ automated cases behind tagged installer and ZIP releases.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div><p class="section-index">04 / IN THE WORKSPACE</p><h2>See the desktop IDE.</h2></div>
+          <p>Light and dark themes are both first-class. Screenshots are served from the product repository.</p>
+        </div>
+        <div class="screenshots">
+          <figure class="screenshot">
+            <img src="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/explorer.png" alt="JustyBase.Legacy object explorer with catalog tree" loading="lazy">
+            <figcaption>Object explorer — catalog tree and table selection</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/preferences.png" alt="JustyBase.Legacy preferences as a docked document tab" loading="lazy">
+            <figcaption>Preferences as a docked document tab</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/login.png" alt="JustyBase.Legacy login and encrypted connection profiles" loading="lazy">
+            <figcaption>Login — encrypted connection profiles</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="https://raw.githubusercontent.com/justybase/JustyBase.Legacy/main/docs/images/editor-showcase.png" alt="JustyBase.Legacy editor showcase in light theme" loading="lazy">
+            <figcaption>Editor showcase — light theme</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="panel">
+          <h2>Documentation &amp; source</h2>
+          <p>The README, architecture decision records, and release notes in the repository remain the source of truth for build steps, security, and contributor workflows.</p>
+          <div class="button-row">
+            <a class="button button-secondary" href="https://github.com/justybase/JustyBase.Legacy#readme">Read the full README ↗</a>
+            <a class="button button-secondary" href="https://github.com/justybase/JustyBase.Legacy/tree/main/docs/ADR">Browse ADRs ↗</a>
+            <a class="button button-secondary" href="https://github.com/justybase/JustyBase.Legacy/releases">View releases ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="faq">
+        <div class="panel faq-panel">
+          <h2>JustyBase.Legacy FAQ</h2>
+          <details>
+            <summary>What is JustyBase.Legacy?</summary>
+            <p>It is a Windows desktop SQL client focused on IBM Netezza / PureData — a Netezza-first IDE for authoring SQL, browsing the catalog, reviewing results, and managing encrypted connection profiles.</p>
+          </details>
+          <details>
+            <summary>Is it Windows-only?</summary>
+            <p>Yes. Public releases target Windows x64. Release packages are self-contained and do not require a separate .NET runtime install.</p>
+          </details>
+          <details>
+            <summary>Does the download include MS SQL, Oracle, DB2, or PostgreSQL?</summary>
+            <p>No. The shipped binary is Netezza-first. Other providers are optional compile-time flags for contributors who build from source.</p>
+          </details>
+          <details>
+            <summary>Installer or ZIP — which should I use?</summary>
+            <p>Use the Inno Setup installer for a normal desktop install. Use the portable ZIP when you need to extract and run without installing.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>JustyBase.Legacy · Windows SQL client for Netezza</p>
+        <a class="text-link" href="../">← Back to JustyBase</a>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "JustyBase.Legacy",
+        "description": "Windows desktop SQL client for IBM Netezza / PureData with a Netezza-first editor, result grid, object explorer, and encrypted connection profiles.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows",
+        "url": "https://justybase.github.io/legacy/",
+        "downloadUrl": "https://github.com/justybase/JustyBase.Legacy/releases/latest",
+        "codeRepository": "https://github.com/justybase/JustyBase.Legacy",
+        "license": "https://github.com/justybase/JustyBase.Legacy/blob/main/LICENSE.md",
+        "publisher": {
+          "@type": "Organization",
+          "name": "JustyBase",
+          "url": "https://justybase.github.io/"
+        }
+      }
+    </script>
+    <script>
+      (async function updateReleaseLinks() {
+        const apiUrl = 'https://api.github.com/repos/justybase/JustyBase.Legacy/releases/latest';
+        const status = document.getElementById('release-status');
+        const links = Array.from(document.querySelectorAll('[data-release-asset]'));
+        try {
+          const response = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github+json' } });
+          if (!response.ok) throw new Error('Release lookup failed');
+          const release = await response.json();
+          const assets = release.assets || [];
+          links.forEach(link => {
+            const kind = link.dataset.releaseAsset;
+            const asset = assets.find(item => {
+              const name = item.name.toLowerCase();
+              if (kind === 'exe') return name.endsWith('.exe');
+              if (kind === 'zip') return name.endsWith('.zip');
+              return false;
+            });
+            if (!asset) return;
+            link.href = asset.browser_download_url;
+            if (kind === 'exe') link.textContent = `Download installer · ${release.tag_name}`;
+            if (kind === 'zip') link.textContent = `Download ZIP · ${release.tag_name}`;
+          });
+          status.textContent = `Latest release: ${release.tag_name}`;
+        } catch (error) {
+          status.textContent = 'Latest release lookup unavailable — open GitHub Releases and choose the installer or ZIP asset.';
+        }
+      })();
+    </script>
+  </body>
+</html>
