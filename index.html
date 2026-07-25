@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="JustyBase — Netezza and SQL developer tools: VS Code extension, .NET SQL toolkit, Python and Node.js drivers, and open-source libraries for data workflows.">
+    <meta name="description" content="JustyBase — Netezza and SQL developer tools: Windows desktop client, VS Code extension, Python and Node.js drivers, and open-source libraries for data workflows.">
     <link rel="canonical" href="https://justybase.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="JustyBase">
     <meta property="og:title" content="JustyBase — Netezza and SQL developer tools">
-    <meta property="og:description" content="VS Code extension, .NET SQL toolkit, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
+    <meta property="og:description" content="Windows SQL client, VS Code extension, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
     <meta property="og:url" content="https://justybase.github.io/">
     <meta property="og:image" content="https://justybase.github.io/assets/img/justybase-mark.svg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="JustyBase — Netezza and SQL developer tools">
-    <meta name="twitter:description" content="VS Code extension, .NET SQL toolkit, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
+    <meta name="twitter:description" content="Windows SQL client, VS Code extension, Python and Node drivers, and open-source libraries for Netezza and SQL workflows.">
     <title>JustyBase — Netezza and SQL developer tools</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,6 +97,17 @@
         </div>
         <div class="product-grid">
           <article class="card product-card">
+            <div class="card-topline"><span>AVAILABLE NOW</span><span>WINDOWS · .NET</span></div>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M8 21h8M12 18v3"></path></svg>
+            </div>
+            <h3>JustyBase.Legacy</h3>
+            <p>Windows desktop SQL client for Netezza-first authoring — SQL editor, result grid, object explorer, encrypted connection profiles, and tagged releases with an Inno Setup installer.</p>
+            <div class="card-meta"><span>WINFORMS</span><span>.NET 10</span><span>NETEZZA</span><span>INSTALLER</span></div>
+            <a class="card-link" href="https://github.com/justybase/JustyBase.Legacy">View on GitHub</a>
+          </article>
+
+          <article class="card product-card">
             <div class="card-topline"><span>AVAILABLE NOW</span><span>VS CODE</span></div>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="7" ry="3"></ellipse><path d="M5 5v7c0 1.66 3.13 3 7 3s7-1.34 7-3V5M5 12v7c0 1.66 3.13 3 7 3s7-1.34 7-3v-7"></path></svg>
@@ -105,17 +116,6 @@
             <p>A Netezza-first SQL extension for Visual Studio Code with a built-in JavaScript driver, full Netezza/PureData tooling, and optional packs for other databases.</p>
             <div class="card-meta"><span>NETEZZA</span><span>POSTGRESQL</span><span>MYSQL</span><span>ORACLE</span></div>
             <a class="card-link" href="vscode/">Explore the VS Code extension</a>
-          </article>
-
-          <article class="card product-card">
-            <div class="card-topline"><span>AVAILABLE NOW</span><span>.NET</span></div>
-            <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 12h12M4 19h14"></path><circle cx="18" cy="5" r="2"></circle><circle cx="20" cy="19" r="2"></circle></svg>
-            </div>
-            <h3>JustyBase.NetezzaSql</h3>
-            <p>Open-source .NET libraries for Netezza SQL parsing, formatting, linting, DDL generation, and catalog metadata queries — without a live database connection.</p>
-            <div class="card-meta"><span>PARSER</span><span>DDL</span><span>.NET 10</span><span>AOT</span></div>
-            <a class="card-link" href="https://github.com/justybase/JustyBase.NetezzaSql">View on GitHub</a>
           </article>
 
           <article class="card card-teal product-card">
@@ -147,9 +147,17 @@
       <section class="section container" id="open-source">
         <div class="section-heading">
           <div><p class="section-index">02 / OPEN SOURCE</p><h2>More of the toolkit.</h2></div>
-          <p>Supporting libraries across .NET, Java, and Python — same org, same focus.</p>
+          <p>Supporting libraries across .NET, Java, TypeScript, and Python — same org, same focus.</p>
         </div>
         <ul class="repo-catalog">
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/JustyBase.NetezzaSql">JustyBase.NetezzaSql</a>
+              <p>.NET libraries for Netezza SQL parsing, formatting, linting, DDL generation, and catalog metadata queries.</p>
+            </div>
+            <span class="repo-lang">.NET</span>
+            <a class="repo-link" href="https://github.com/justybase/JustyBase.NetezzaSql">GitHub ↗</a>
+          </li>
           <li class="repo-row">
             <div class="repo-main">
               <a class="repo-name" href="https://github.com/justybase/JustyBase.Netezza">JustyBase.Netezza</a>
@@ -161,7 +169,7 @@
           <li class="repo-row">
             <div class="repo-main">
               <a class="repo-name" href="https://github.com/justybase/JustyBase.NetezzaDriver">JustyBase.NetezzaDriver</a>
-              <p>Native .NET client for IBM Netezza Performance Server — connections, commands, and data retrieval.</p>
+              <p>Pure C# ADO.NET driver for IBM Netezza — no native dependencies, sync/async API, pooling, and AOT-compatible.</p>
             </div>
             <span class="repo-lang">.NET</span>
             <a class="repo-link" href="https://github.com/justybase/JustyBase.NetezzaDriver">GitHub ↗</a>
@@ -181,6 +189,14 @@
             </div>
             <span class="repo-lang">.NET</span>
             <a class="repo-link" href="https://github.com/justybase/SpreadSheetTasks">GitHub ↗</a>
+          </li>
+          <li class="repo-row">
+            <div class="repo-main">
+              <a class="repo-name" href="https://github.com/justybase/justybase_spreadsheet_tasks">@justybase/spreadsheet-tasks</a>
+              <p>High-performance TypeScript library for XLSB/XLSX read and write — XLSB markedly faster than XLSX.</p>
+            </div>
+            <span class="repo-lang">TypeScript</span>
+            <a class="repo-link" href="https://github.com/justybase/justybase_spreadsheet_tasks">GitHub ↗</a>
           </li>
           <li class="repo-row">
             <div class="repo-main">

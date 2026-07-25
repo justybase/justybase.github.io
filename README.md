@@ -10,12 +10,12 @@ Static, dependency-free landing pages for the JustyBase product hub:
 
 **Flagship products** (featured cards):
 
-1. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
-2. [JustyBase.NetezzaSql](https://github.com/justybase/JustyBase.NetezzaSql)
+1. [JustyBase.Legacy](https://github.com/justybase/JustyBase.Legacy)
+2. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
 3. [nzpy_extended](https://github.com/justybase/nzpy_extended)
 4. [justybase_netezza_node_driver](https://github.com/justybase/justybase_netezza_node_driver)
 
-**Open source catalog** (compact list): JustyBase.Netezza, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, xlspy.
+**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.Netezza, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy.
 
 ## Add a product page
 
