@@ -16,7 +16,7 @@ Static, dependency-free landing pages for the JustyBase product hub:
 3. [nzpy_extended](https://github.com/justybase/nzpy_extended)
 4. [justybase_netezza_node_driver](https://github.com/justybase/justybase_netezza_node_driver)
 
-**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.Netezza, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy.
+**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy.
 
 ## Add a product page
 
