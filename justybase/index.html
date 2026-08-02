@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JustyBase — cross-platform desktop SQL IDE for IBM Netezza, built with Avalonia and .NET 10. SQL editor, schema explorer, Git workflows, data tools, and optional local AI.">
+    <link rel="canonical" href="https://justybase.github.io/justybase/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="JustyBase">
+    <meta property="og:title" content="JustyBase — cross-platform desktop SQL IDE">
+    <meta property="og:description" content="A Netezza-first SQL IDE for Windows, Linux, and macOS, built with Avalonia and .NET 10.">
+    <meta property="og:url" content="https://justybase.github.io/justybase/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/justybase/justybase/main/pictures/evo_dark.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JustyBase — cross-platform desktop SQL IDE">
+    <meta name="twitter:description" content="Netezza-first SQL editing, schema exploration, Git workflows, data tools, and optional local AI assistance.">
+    <title>JustyBase — cross-platform desktop SQL IDE — JustyBase</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/theme.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="../"><img src="../assets/img/justybase-mark.svg" alt="">JustyBase</a>
+        <div class="nav-links">
+          <a href="../#products">Products</a>
+          <a href="https://github.com/justybase/justybase">Source ↗</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme"><span data-theme-icon aria-hidden="true">◐</span><span data-theme-label>Dark mode</span></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero container">
+        <a class="breadcrumb" href="../">← JustyBase</a>
+        <p class="eyebrow">Cross-platform desktop · Netezza-first</p>
+        <h1>JustyBase<span class="accent">. Desktop SQL, kept close to the data.</span></h1>
+        <p class="hero-copy">A cross-platform SQL IDE for IBM Netezza Performance Server, built with Avalonia UI and .NET 10. Write and run SQL, explore schemas, work with Git-backed files, inspect results, and use optional local AI assistance in one focused desktop workspace.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#download">Download JustyBase</a>
+          <a class="button button-secondary" href="https://github.com/justybase/justybase/releases">GitHub Releases ↗</a>
+        </div>
+        <div class="meta" aria-label="Product highlights">
+          <span>Windows x64</span>
+          <span>Linux x64</span>
+          <span>macOS ARM64</span>
+          <span>.NET 10 · Avalonia</span>
+          <span>MIT</span>
+        </div>
+      </section>
+
+      <section class="section container">
+        <figure class="screenshot screenshot-hero">
+          <img src="https://raw.githubusercontent.com/justybase/justybase/main/pictures/evo_dark.png" alt="JustyBase SQL editor with schema explorer and query results in dark theme" loading="eager">
+          <figcaption>SQL editor, schema explorer, and query results in one desktop workspace</figcaption>
+        </figure>
+      </section>
+
+      <section class="section container">
+        <div class="support-model">
+          <div class="support-heading">
+            <p class="section-index">01 / PRODUCT MODEL</p>
+            <h2>Netezza is the current focus. The workspace is built to grow.</h2>
+          </div>
+          <div class="support-columns">
+            <article class="support-block support-core">
+              <div class="support-label"><span class="status-dot"></span> CURRENT FOCUS</div>
+              <h3>IBM Netezza Performance Server</h3>
+              <p>JustyBase combines Netezza-first SQL authoring, schema exploration, multi-connection work, result inspection, and data import/export in a native desktop application.</p>
+              <div class="support-tags"><span>NETEZZA CORE</span><span>DESKTOP IDE</span><span>CROSS-PLATFORM</span></div>
+            </article>
+            <article class="support-block support-optional">
+              <div class="support-label"><span class="status-dot"></span> IN DEVELOPMENT</div>
+              <h3>Additional database engines</h3>
+              <p>PostgreSQL, Db2, Snowflake, Oracle, DuckDB, MySQL, and SQLite are represented in the plugin architecture, but the repository marks them as coming soon or work in progress.</p>
+              <div class="database-list"><span>PostgreSQL</span><span>Db2</span><span>Snowflake</span><span>Oracle</span><span>DuckDB</span><span>MySQL</span><span>SQLite</span></div>
+            </article>
+          </div>
+          <div class="support-note"><strong>AI is opt-in:</strong> embedded FIM runs locally with a user-selected GGUF model. Ollama and LM Studio use local endpoints; remote AI providers receive only the context selected for the active request.</div>
+        </div>
+      </section>
+
+      <section class="section container" id="download">
+        <div class="section-heading">
+          <div><p class="section-index">02 / DOWNLOAD</p><h2>Choose your desktop.</h2></div>
+          <p>Release builds are Native AOT packages for Windows x64, Linux x64, and macOS Apple Silicon. Windows also has an installer.</p>
+        </div>
+        <div class="install-grid install-grid-dual">
+          <article class="install-card install-required">
+            <div class="install-number">01</div>
+            <div class="install-card-label">RECOMMENDED · WINDOWS</div>
+            <h3>Windows installer</h3>
+            <p>Velopack installer for Windows x64. The simplest way to install JustyBase on a regular desktop.</p>
+            <a class="button button-primary release-link" data-release-asset="win-installer" href="https://github.com/justybase/justybase/releases">Download installer ↗</a>
+          </article>
+          <article class="install-card">
+            <div class="install-number">02</div>
+            <div class="install-card-label">PORTABLE · WINDOWS</div>
+            <h3>Windows ZIP</h3>
+            <p>Portable Windows x64 package. Extract it and run without a traditional installation.</p>
+            <a class="button button-secondary release-link" data-release-asset="win-zip" href="https://github.com/justybase/justybase/releases">Download ZIP ↗</a>
+          </article>
+          <article class="install-card">
+            <div class="install-number">03</div>
+            <div class="install-card-label">PORTABLE · LINUX</div>
+            <h3>Linux x64 ZIP</h3>
+            <p>Native AOT Linux x64 archive for a portable desktop setup.</p>
+            <a class="button button-secondary release-link" data-release-asset="linux-zip" href="https://github.com/justybase/justybase/releases">Download Linux build ↗</a>
+          </article>
+          <article class="install-card">
+            <div class="install-number">04</div>
+            <div class="install-card-label">PORTABLE · MACOS</div>
+            <h3>macOS Apple Silicon ZIP</h3>
+            <p>Native AOT package for macOS ARM64, intended for Apple Silicon Macs.</p>
+            <a class="button button-secondary release-link" data-release-asset="macos-zip" href="https://github.com/justybase/justybase/releases">Download macOS build ↗</a>
+          </article>
+        </div>
+        <div class="install-steps">
+          <div><span>1</span><p>Download the package matching your operating system and architecture.</p></div>
+          <div><span>2</span><p>Run the Windows installer, or extract the portable ZIP on Linux or macOS.</p></div>
+          <div><span>3</span><p>Add a Netezza connection, open a SQL document, and start working.</p></div>
+        </div>
+        <p id="release-status" class="release-status" aria-live="polite">Checking available release assets…</p>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div><p class="section-index">03 / FEATURES</p><h2>A SQL workspace with useful edges.</h2></div>
+          <p>Focused tools for the loop from SQL file to database result, with local-first assistance when you want it.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="panel"><h2>SQL editor</h2><p>Syntax highlighting, folding, autocomplete, Quick Open, and Netezza-oriented authoring for everyday query work.</p></article>
+          <article class="panel"><h2>Schema exploration</h2><p>Inspect database objects and connections without leaving the editor workspace.</p></article>
+          <article class="panel"><h2>Git-aware workflow</h2><p>Review status, stage changes, inspect history and diffs, and commit SQL-backed work from the application.</p></article>
+          <article class="panel"><h2>Data tools</h2><p>Group and filter results, then export data to Excel, CSV, or Parquet.</p></article>
+          <article class="panel"><h2>Optional local AI</h2><p>Use embedded FIM with GGUF models, or connect to Ollama and LM Studio. AI features are disabled by default.</p></article>
+          <article class="panel"><h2>Native AOT</h2><p>Release packages target fast, self-contained desktop startup across Windows, Linux, and Apple Silicon.</p></article>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div><p class="section-index">04 / IN THE WORKSPACE</p><h2>See the workflow.</h2></div>
+          <p>Product screenshots are served directly from the source repository.</p>
+        </div>
+        <div class="screenshots">
+          <figure class="screenshot"><img src="https://raw.githubusercontent.com/justybase/justybase/main/pictures/import_dark.png" alt="JustyBase data import workflow in dark theme" loading="lazy"><figcaption>Import workflow for moving data into the workspace</figcaption></figure>
+          <figure class="screenshot"><img src="https://raw.githubusercontent.com/justybase/justybase/main/pictures/settings_dark.png" alt="JustyBase settings view in dark theme" loading="lazy"><figcaption>Settings and application configuration</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="panel">
+          <h2>Documentation &amp; source</h2>
+          <p>The README and docs in the product repository remain the source of truth for supported databases, AI privacy, architecture, builds, and contribution workflows.</p>
+          <div class="button-row">
+            <a class="button button-secondary" href="https://github.com/justybase/justybase#readme">Read the full README ↗</a>
+            <a class="button button-secondary" href="https://github.com/justybase/justybase/tree/main/docs">Browse documentation ↗</a>
+            <a class="button button-secondary" href="https://github.com/justybase/justybase/releases">View releases ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="faq">
+        <div class="panel faq-panel">
+          <h2>JustyBase FAQ</h2>
+          <details>
+            <summary>What is JustyBase?</summary>
+            <p>It is a cross-platform desktop SQL IDE focused on IBM Netezza Performance Server, with SQL editing, schema exploration, Git workflows, data tools, and optional local AI assistance.</p>
+          </details>
+          <details>
+            <summary>Which operating systems are supported?</summary>
+            <p>The release workflow packages Windows x64, Linux x64, and macOS ARM64 builds. The macOS package targets Apple Silicon.</p>
+          </details>
+          <details>
+            <summary>Which databases are supported today?</summary>
+            <p>Netezza is the current supported focus. Other engines are present in the plugin architecture but are marked in the repository as coming soon or work in progress.</p>
+          </details>
+          <details>
+            <summary>Does AI send my SQL to a remote service?</summary>
+            <p>AI is opt-in. Embedded FIM runs locally; Ollama and LM Studio use configured local endpoints. Remote provider behavior depends on the provider and the context you explicitly send.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>JustyBase · Cross-platform desktop SQL IDE</p>
+        <a class="text-link" href="../">← Back to JustyBase</a>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "JustyBase",
+        "description": "Cross-platform desktop SQL IDE for IBM Netezza with SQL editing, schema exploration, Git workflows, data tools, and optional local AI assistance.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows, Linux, macOS",
+        "url": "https://justybase.github.io/justybase/",
+        "downloadUrl": "https://github.com/justybase/justybase/releases",
+        "codeRepository": "https://github.com/justybase/justybase",
+        "license": "https://github.com/justybase/justybase/blob/main/LICENSE",
+        "publisher": {
+          "@type": "Organization",
+          "name": "JustyBase",
+          "url": "https://justybase.github.io/"
+        }
+      }
+    </script>
+    <script>
+      (async function updateReleaseLinks() {
+        const apiUrl = 'https://api.github.com/repos/justybase/justybase/releases?per_page=20';
+        const status = document.getElementById('release-status');
+        const links = Array.from(document.querySelectorAll('[data-release-asset]'));
+        const suffixes = {
+          'win-installer': '-win-x64-Setup.exe',
+          'win-zip': '-win-x64.zip',
+          'linux-zip': '-linux-x64.zip',
+          'macos-zip': '-macos-arm64.zip'
+        };
+        try {
+          const response = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github+json' } });
+          if (!response.ok) throw new Error('Release lookup failed');
+          const releases = await response.json();
+          const release = releases.find(item => !item.draft && item.assets && item.assets.length);
+          if (!release) {
+            status.textContent = 'No packaged release yet — open GitHub Releases for source and release updates.';
+            return;
+          }
+          links.forEach(link => {
+            const suffix = suffixes[link.dataset.releaseAsset];
+            const asset = release.assets.find(item => item.name.endsWith(suffix));
+            if (!asset) return;
+            link.href = asset.browser_download_url;
+            link.textContent = `${link.textContent.replace(/ ↗$/, '')} · ${release.tag_name} ↗`;
+          });
+          status.textContent = `Latest packaged release: ${release.tag_name}`;
+        } catch (error) {
+          status.textContent = 'Release lookup unavailable — open GitHub Releases and choose the package for your platform.';
+        }
+      })();
+    </script>
+  </body>
+</html>

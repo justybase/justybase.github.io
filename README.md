@@ -3,6 +3,7 @@
 Static, dependency-free landing pages for the JustyBase product hub:
 
 - `/` — brand homepage with four flagship products and an open-source catalog
+- `/justybase/` — JustyBase cross-platform Avalonia SQL IDE with release downloads
 - `/legacy/` — JustyBase.Legacy Windows SQL client for Netezza
 - `/vscode/` — JustyBase Netezza SQL Tools for VS Code
 - `/csharp-tool/` — redirect to `/#products` (legacy placeholder removed)
@@ -11,12 +12,12 @@ Static, dependency-free landing pages for the JustyBase product hub:
 
 **Flagship products** (featured cards):
 
-1. [JustyBase.Legacy](https://github.com/justybase/JustyBase.Legacy) → `/legacy/`
-2. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
-3. [nzpy_extended](https://github.com/justybase/nzpy_extended)
-4. [justybase_netezza_node_driver](https://github.com/justybase/justybase_netezza_node_driver)
+1. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
+2. [JustyBase](https://github.com/justybase/justybase) → `/justybase/`
+3. [JustyBase.Legacy](https://github.com/justybase/JustyBase.Legacy) → `/legacy/`
+4. [nzpy_extended](https://github.com/justybase/nzpy_extended)
 
-**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy.
+**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy, justybase_netezza_node_driver.
 
 ## Add a product page
 
