@@ -20,13 +20,9 @@ Static, dependency-free landing pages for the JustyBase product hub:
 
 **Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy, justybase_netezza_node_driver.
 
-## UI variants
+## Visual direction
 
-The homepage includes three visual directions for comparison:
-
-- `/?variant=minimal` — Quiet, spacious, and editorial
-- `/?variant=terminal` — Dark developer-tool interface
-- `/?variant=studio` — Rounded product showcase with stronger color
+The site uses one restrained visual system and shows product UI only through screenshots served from the product repositories. There are no fabricated editor mockups or placeholder query results. Light and dark themes are supported via `assets/js/theme.js`.
 
 ## Add a product page
 

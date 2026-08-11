@@ -27,35 +27,3 @@
     });
   }
 })();
-
-(function applyVisualVariant() {
-  const root = document.documentElement;
-  const picker = document.querySelector('[data-variant-toggle]');
-  const variants = new Set(['default', 'minimal', 'terminal', 'studio']);
-  const requestedVariant = new URLSearchParams(window.location.search).get('variant');
-  const initialVariant = variants.has(requestedVariant) ? requestedVariant : 'default';
-
-  function setVariant(variant) {
-    root.dataset.variant = variant;
-    if (picker) picker.value = variant;
-  }
-
-  function updateUrl(variant) {
-    const url = new URL(window.location.href);
-    if (variant === 'default') {
-      url.searchParams.delete('variant');
-    } else {
-      url.searchParams.set('variant', variant);
-    }
-    window.history.replaceState({}, '', url);
-  }
-
-  setVariant(initialVariant);
-  if (picker) {
-    picker.addEventListener('change', function changeVariant(event) {
-      const variant = variants.has(event.target.value) ? event.target.value : 'default';
-      setVariant(variant);
-      updateUrl(variant);
-    });
-  }
-})();

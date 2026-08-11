@@ -20,7 +20,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/variants.css">
     <script src="assets/js/theme.js" defer></script>
     <script type="application/ld+json">
       {
@@ -50,7 +49,6 @@
           <a href="#open-source">Open source</a>
           <a href="#approach">Approach</a>
           <a href="https://github.com/justybase">GitHub ↗</a>
-          <label class="variant-picker"><span>View</span><select data-variant-toggle aria-label="Choose visual variant"><option value="default">Current</option><option value="minimal">Quiet</option><option value="terminal">Terminal</option><option value="studio">Studio</option></select></label>
           <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme"><span data-theme-icon aria-hidden="true">◐</span><span data-theme-label>Dark mode</span></button>
         </div>
       </nav>
@@ -75,21 +73,10 @@
             <span><strong>02</strong> Keep the workflow visible</span>
           </div>
         </div>
-        <div class="query-preview" aria-label="JustyBase workflow preview">
-          <div class="preview-toolbar"><span class="live-dot"></span><span>workspace / analytics</span><span class="preview-state">CONNECTED</span></div>
-          <div class="preview-query"><span class="query-line-number">01</span><code><b>SELECT</b> schema_name, table_name</code></div>
-          <div class="preview-query"><span class="query-line-number">02</span><code><b>FROM</b> system_catalog.tables</code></div>
-          <div class="preview-query"><span class="query-line-number">03</span><code><b>WHERE</b> is_visible = <em>true</em>;</code></div>
-          <div class="preview-divider"></div>
-          <div class="preview-caption"><span>RESULTS · 3,842 objects</span><span>00:00.184</span></div>
-          <div class="data-table">
-            <div class="data-row data-head"><span>SCHEMA</span><span>TABLE_NAME</span><span>ROWS</span></div>
-            <div class="data-row"><span>ANALYTICS</span><span>FACT_ORDERS</span><span>1.2M</span></div>
-            <div class="data-row"><span>ANALYTICS</span><span>DIM_CUSTOMER</span><span>84.6K</span></div>
-            <div class="data-row"><span>STAGING</span><span>LOAD_EVENTS</span><span>9.8M</span></div>
-          </div>
-          <div class="preview-footer"><span>SQL WORKSPACE</span><span class="preview-cursor">▌</span></div>
-        </div>
+        <figure class="screenshot screenshot-hero hero-screenshot">
+          <img src="https://raw.githubusercontent.com/justybase/justybase/main/pictures/evo_dark.png" alt="JustyBase SQL editor with schema explorer and query results in dark theme" loading="eager">
+          <figcaption>JustyBase desktop SQL workspace</figcaption>
+        </figure>
       </section>
 
       <section class="section container" id="products">
