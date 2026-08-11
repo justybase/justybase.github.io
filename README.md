@@ -2,7 +2,7 @@
 
 Static, dependency-free landing pages for the JustyBase product hub:
 
-- `/` — brand homepage with four flagship products and an open-source catalog
+- `/` — brand homepage with five flagship products and an open-source catalog
 - `/justybase/` — JustyBase cross-platform Avalonia SQL IDE with release downloads
 - `/legacy/` — JustyBase.Legacy Windows SQL client for Netezza
 - `/vscode/` — JustyBase Netezza SQL Tools for VS Code
@@ -15,9 +15,18 @@ Static, dependency-free landing pages for the JustyBase product hub:
 1. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
 2. [JustyBase](https://github.com/justybase/justybase) → `/justybase/`
 3. [JustyBase.Legacy](https://github.com/justybase/JustyBase.Legacy) → `/legacy/`
-4. [nzpy_extended](https://github.com/justybase/nzpy_extended)
+4. [JustyBase.UCanAccessCs](https://github.com/justybase/JustyBase.UCanAccessCs)
+5. [nzpy_extended](https://github.com/justybase/nzpy_extended)
 
 **Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy, justybase_netezza_node_driver.
+
+## UI variants
+
+The homepage includes three visual directions for comparison:
+
+- `/?variant=minimal` — Quiet, spacious, and editorial
+- `/?variant=terminal` — Dark developer-tool interface
+- `/?variant=studio` — Rounded product showcase with stronger color
 
 ## Add a product page
 
