@@ -2,15 +2,16 @@
   const figures = Array.from(document.querySelectorAll('.screenshot'));
   if (!figures.length) return;
 
+  const pl = document.documentElement.lang === 'pl';
   const overlay = document.createElement('div');
   overlay.className = 'lightbox';
   overlay.setAttribute('role', 'dialog');
   overlay.setAttribute('aria-modal', 'true');
-  overlay.setAttribute('aria-label', 'Screenshot preview');
+  overlay.setAttribute('aria-label', document.documentElement.lang === 'pl' ? 'Podgląd zrzutu ekranu' : 'Screenshot preview');
   overlay.innerHTML =
-    '<button class="lightbox-close" type="button" aria-label="Close preview">×</button>' +
-    '<button class="lightbox-nav lightbox-nav-prev" type="button" aria-label="Previous screenshot">←</button>' +
-    '<button class="lightbox-nav lightbox-nav-next" type="button" aria-label="Next screenshot">→</button>' +
+    '<button class="lightbox-close" type="button" aria-label="' + (pl ? 'Zamknij podgląd' : 'Close preview') + '">×</button>' +
+    '<button class="lightbox-nav lightbox-nav-prev" type="button" aria-label="' + (pl ? 'Poprzedni zrzut' : 'Previous screenshot') + '">←</button>' +
+    '<button class="lightbox-nav lightbox-nav-next" type="button" aria-label="' + (pl ? 'Następny zrzut' : 'Next screenshot') + '">→</button>' +
     '<div class="lightbox-stage"><img src="" alt=""></div>' +
     '<p class="lightbox-caption"></p>';
   document.body.appendChild(overlay);

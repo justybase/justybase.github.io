@@ -2,23 +2,24 @@
 
 Static, dependency-free landing pages for the JustyBase product hub:
 
-- `/` — brand homepage with five flagship products and an open-source catalog
-- `/justybase/` — JustyBase cross-platform Avalonia SQL IDE with release downloads
-- `/legacy/` — JustyBase.Legacy Windows SQL client for Netezza
-- `/vscode/` — JustyBase Netezza SQL Tools for VS Code
-- `/csharp-tool/` — redirect to `/#products` (legacy placeholder removed)
+- `/` and `/pl/` — bilingual (EN / PL) portfolio homepage: flagship apps, filterable libraries & drivers, stack, approach
+- `/justybase/`, `/legacy/`, `/vscode/` — product pages, each with a Polish twin under `/pl/<page>/`
+- `/csharp-tool/` — redirect to `/#apps` (legacy placeholder removed)
 
-## Homepage model
+## Bilingual content
 
-**Flagship products** (featured cards):
+Homepages are generated from `tools/build_home.py` (project data + EN/PL copy in one place); Polish product pages are generated from the English ones by `tools/build_subpages.py`. After editing, run from the repo root:
 
-1. [justybase-vscode](https://github.com/justybase/justybase-vscode) → `/vscode/`
-2. [JustyBase](https://github.com/justybase/justybase) → `/justybase/`
-3. [JustyBase.Legacy](https://github.com/justybase/JustyBase.Legacy) → `/legacy/`
-4. [JustyBase.UCanAccessCs](https://github.com/justybase/JustyBase.UCanAccessCs)
-5. [nzpy_extended](https://github.com/justybase/nzpy_extended)
+```bash
+python3 tools/build_home.py
+python3 tools/build_subpages.py
+```
 
-**Open source catalog** (compact list): JustyBase.NetezzaSql, JustyBase.NetezzaDriver, dbeaver-netezza-tools-plugin, SpreadSheetTasks, justybase_spreadsheet_tasks, xlspy, justybase_netezza_node_driver.
+Edit the English product pages directly and add/adjust the matching Polish strings in the script. Language switcher links and `hreflang` tags are wired automatically; the theme/lightbox scripts read the page `lang`.
+
+## Projects shown
+
+Apps: justybase-vscode, justybase, JustyBase.Legacy. Drivers: NetezzaDriver, Db2, node driver, nz_rust, nzpy_extended, UCanAccessCs. Spreadsheets: SpreadSheetTasks, spreadsheet_rust, spreadsheet_tasks (TS), xlspy. SQL & tools: NetezzaSql, dbeaver plugin. Archived repos and the org `.github`/demo repos are intentionally omitted.
 
 ## Visual direction
 

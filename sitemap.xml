@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://justybase.github.io/</loc></url>
-  <url><loc>https://justybase.github.io/justybase/</loc></url>
-  <url><loc>https://justybase.github.io/vscode/</loc></url>
-  <url><loc>https://justybase.github.io/legacy/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://justybase.github.io/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/"/></url>
+  <url><loc>https://justybase.github.io/pl/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/"/></url>
+  <url><loc>https://justybase.github.io/vscode/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/vscode/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/vscode/"/></url>
+  <url><loc>https://justybase.github.io/pl/vscode/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/vscode/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/vscode/"/></url>
+  <url><loc>https://justybase.github.io/justybase/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/justybase/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/justybase/"/></url>
+  <url><loc>https://justybase.github.io/pl/justybase/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/justybase/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/justybase/"/></url>
+  <url><loc>https://justybase.github.io/legacy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/legacy/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/legacy/"/></url>
+  <url><loc>https://justybase.github.io/pl/legacy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://justybase.github.io/legacy/"/><xhtml:link rel="alternate" hreflang="pl" href="https://justybase.github.io/pl/legacy/"/></url>
 </urlset>
