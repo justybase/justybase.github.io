@@ -27,7 +27,7 @@ COPY = {
         "h1": ["Serious tools for ", "serious data."],
         "lead": "I build database tooling for Netezza and SQL workflows — desktop IDEs, a VS Code extension, native drivers and fast spreadsheet libraries across .NET, TypeScript, Rust and Python.",
         "cta1": "See the projects", "cta2": "Browse on GitHub ↗",
-        "stats": [("15", "open-source projects"), ("6", "languages in use"), ("3", "SQL workspaces")],
+        "stats": [("14", "open-source projects"), ("6", "languages in use"), ("3", "SQL workspaces")],
         "hero_cap": "JustyBase desktop SQL workspace",
         "hero_alt": "JustyBase SQL editor with schema explorer and query results in dark theme",
         "apps_idx": "01 / APPLICATIONS", "apps_h": "Flagship apps.",
@@ -66,7 +66,7 @@ COPY = {
         "h1": ["Poważne narzędzia do ", "poważnych danych."],
         "lead": "Tworzę narzędzia bazodanowe dla Netezza i pracy z SQL — desktopowe IDE, rozszerzenie VS Code, natywne sterowniki i szybkie biblioteki arkuszy w .NET, TypeScript, Rust i Pythonie.",
         "cta1": "Zobacz projekty", "cta2": "Przeglądaj na GitHubie ↗",
-        "stats": [("15", "projektów open source"), ("6", "używanych języków"), ("3", "środowiska SQL")],
+        "stats": [("14", "projektów open source"), ("6", "używanych języków"), ("3", "środowiska SQL")],
         "hero_cap": "Desktopowe środowisko SQL JustyBase",
         "hero_alt": "Edytor SQL JustyBase z eksploratorem schematu i wynikami zapytań w ciemnym motywie",
         "apps_idx": "01 / APLIKACJE", "apps_h": "Flagowe aplikacje.",
@@ -97,7 +97,7 @@ COPY = {
 # ---------------------------------------------------------------- projects
 ICON_DB = '<ellipse cx="12" cy="5" rx="7" ry="3"/><path d="M5 5v7c0 1.66 3.13 3 7 3s7-1.34 7-3V5M5 12v7c0 1.66 3.13 3 7 3s7-1.34 7-3v-7"/>'
 APPS = [
-    {"page": "vscode/", "repo": "justybase-vscode", "name": "JustyBase Core (NetezzaSQL)", "tag": "VS CODE",
+    {"page": "vscode/", "repo": "justybase-vscode", "name": "JustyBase SQL Editor", "tag": "VS CODE",
      "img": RAW + "justybase-vscode/master/docs/screenshots/workspace-overview.png",
      "tags": ["NETEZZA", "POSTGRESQL", "ORACLE", "DB2", "DUCKDB", "AI COPILOT"],
      "en": ("Netezza-first SQL extension for Visual Studio Code with a built-in JavaScript driver, schema browser, result explorer, ERD and ETL designer, notebooks and an AI SQL assistant. Optional packs add Db2, PostgreSQL, Snowflake, Oracle, MSSQL, MySQL and DuckDB.",
@@ -152,9 +152,6 @@ LIBS = [
     ("xlspy", "xlspy", "Python", "spreadsheets", "PYTHON",
      "Python library for efficient XLSB / XLSX read and write, with optional C acceleration.",
      "Biblioteka Pythona do wydajnego odczytu i zapisu XLSB / XLSX, z opcjonalną akceleracją w C.", None),
-    ("JustyBase.NetezzaSql", "JustyBase.NetezzaSql", "C#", "tools", ".NET",
-     ".NET libraries for Netezza SQL parsing, authoring, DDL generation and catalog metadata queries.",
-     "Biblioteki .NET do parsowania SQL Netezza, edycji, generowania DDL i zapytań o metadane katalogu.", None),
     ("dbeaver-netezza-tools-plugin", "dbeaver-netezza-tools-plugin", "Java", "tools", "DBEAVER",
      "DBeaver extension for clipboard / Excel import-export, table creation and Netezza-friendly DDL.",
      "Rozszerzenie DBeaver: import i eksport przez schowek / Excela, tworzenie tabel i DDL przyjazny dla Netezza.", None),

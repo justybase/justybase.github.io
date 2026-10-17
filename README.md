@@ -19,7 +19,7 @@ Edit the English product pages directly and add/adjust the matching Polish strin
 
 ## Projects shown
 
-Apps: justybase-vscode, justybase, JustyBase.Legacy. Drivers: NetezzaDriver, Db2, node driver, nz_rust, nzpy_extended, UCanAccessCs. Spreadsheets: SpreadSheetTasks, spreadsheet_rust, spreadsheet_tasks (TS), xlspy. SQL & tools: NetezzaSql, dbeaver plugin. Archived repos and the org `.github`/demo repos are intentionally omitted.
+Apps: justybase-vscode, justybase, JustyBase.Legacy. Drivers: NetezzaDriver, Db2, node driver, nz_rust, nzpy_extended, UCanAccessCs. Spreadsheets: SpreadSheetTasks, spreadsheet_rust, spreadsheet_tasks (TS), xlspy. SQL & tools: dbeaver plugin. Archived repos and the org `.github`/demo repos are intentionally omitted.
 
 ## Visual direction
 
